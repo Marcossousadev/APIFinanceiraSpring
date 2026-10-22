@@ -8,6 +8,6 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class ResponseErrorException {
-    String message;
-    Integer code;
+   private String message;
+   private Integer code;
 }
