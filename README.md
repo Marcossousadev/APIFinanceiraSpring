@@ -91,11 +91,9 @@ Antes de executar a aplicação, instale:
 ### 1. Clone o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd relacionamentos
+git clone https://github.com/Marcossousadev/APIFinanceiraSpring.git
+cd APIFinanceiraSpring
 ```
-
-Substitua `<URL_DO_REPOSITORIO>` pela URL do seu repositório Git.
 
 ### 2. Configure o banco de dados
 
