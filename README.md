@@ -179,12 +179,12 @@ Os endpoints abaixo são exemplos ilustrativos. Confirme os caminhos nos control
 | Tags | Criar e listar tags |
 | Transações | Criar e consultar transações |
 
-Exemplos de requisições, caso correspondam aos mappings implementados:
+Exemplos de requisições:
 
 ```http
-POST http://localhost:8080/v1/users
-GET  http://localhost:8080/v1/tags
-POST http://localhost:8080/v1/transactions
+POST http://localhost:8080/v1/user
+GET  http://localhost:8080/v1/tag
+POST http://localhost:8080/v1/transaction
 ```
 
 Os nomes reais das rotas, os parâmetros obrigatórios e os formatos JSON devem ser conferidos nos controllers e DTOs correspondentes.
